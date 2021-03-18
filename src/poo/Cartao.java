@@ -1,23 +1,25 @@
 package poo;
 
+/**
+ * A classe Cartão contém métodos para obter o nome do funcionário, escolher um serviço, escolher um cargo, remover um serviço, atribuir um novo serviço, promover o cargo e despedir um funcionário. 
+ * 
+ */
+/*
+ * <ul>
+ * <li>getNomeFuncionario</li>
+ * <li>setServico</li>
+ * <li>setCargo</li>
+ * <li>retirarServico</li>
+ * <li>atribuirNovoServico</li>
+ * <li>promoverNovoCargo</li>
+ * <li>despedirFuncionario</li>
+ * </ul>
+ * 
+ * @author Vasco Geada
+ *
+ */
+
 public class Cartao {
-	/**
-	 * A classe Cartão contém métodos para obter o nome do funcionário, escolher um serviço, escolher um cargo, remover um serviço, atribuir um novo serviço, promover o cargo e despedir um funcionário. 
-	 * 
-	 * 
-	 * <ul>
-	 * <li>getNomeFuncionario</li>
-	 * <li>setServico</li>
-	 * <li>setCargo</li>
-	 * <li>retirarServico</li>
-	 * <li>atribuirNovoServico</li>
-	 * <li>promoverNovoCargo</li>
-	 * <li>despedirFuncionario</li>
-	 * </ul>
-	 * 
-	 * @author Vasco Geada
-	 *
-	 */
 	
 	private String nomeFuncionario;
 	private String servico;
@@ -26,7 +28,7 @@ public class Cartao {
 	// Construtores 
 	/**
 	 * Construtor que recebe o nome do funcionário
-	 * @param nomeFuncionario
+	 * @param nomeFuncionario nome do funcionário em questão
 	 */
 	public Cartao(String nomeFuncionario) {
 		super();
@@ -36,9 +38,9 @@ public class Cartao {
 	/**
 	 *  Construtor que recebe o nome, serviço e o cargo do Funcionário
 	 *  
-	 * @param nomeFuncionario
-	 * @param servico do funcionário
-	 * @param cargo do funcionário
+	 * @param nomeFuncionario nome do funcionário
+	 * @param servico serviço do funcionário
+	 * @param cargo cargo do funcionário
 	 */
 	public Cartao(String nomeFuncionario, String servico, String cargo) {
 		super();
